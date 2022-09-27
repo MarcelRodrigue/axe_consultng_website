@@ -22,3 +22,4 @@ document.querySelector(".mysecs").innerText = tsec;
 
 };
 setInterval(countdown, 1000);
+
