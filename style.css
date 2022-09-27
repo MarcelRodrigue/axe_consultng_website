@@ -4,19 +4,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color:#fff;
-
 }
 :root{
     --mainclr:rgb(7, 12, 157);
-    --mainclr:rgb(232, 12, 133);
-
-
 }
-
-
-
-
-
 .main{
     padding: 4rem 6rem;
     overflow: hidden;
@@ -24,11 +15,10 @@
 .main span{
     color: var(--mainclr);
 }
-
 .bg-overlay{
 	width: 100%;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(1, 1, 1, 0.7), rgba(0, 0, 0, 0.665)), url(./images/secong_bg.png);
+    background: linear-gradient(0deg, rgba(1, 1, 1, 0.7), rgba(0, 0, 0, 0.665)), url(./images/secong_bg\ \(1\).png);
     background-repeat:no-repeat;
     background-size: cover;
 }
@@ -36,8 +26,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-   
-
 }
 .container img{
     margin-top: -10rem;
@@ -48,8 +36,6 @@
     transform: translateY(-7rem);
     transform: rotate(30deg);
     display: none;
-    
-
 }
 
 .calendar{
@@ -72,7 +58,6 @@
     align-items: center;
     gap :1rem;
     transform: scale(1.4);
-  
 }
 
 .right_section{
@@ -87,7 +72,6 @@
 }
 .right_section h2 span{
     color: var(--mainclr);
-
 }
 .left_setion{
     display: flex;
@@ -97,9 +81,7 @@
 .left_setion .headimg{
 font-weight: bold;
 margin-top: 3rem;
-
 }
-
 .input{
     margin-top: 1rem;
     display: flex;
@@ -131,11 +113,9 @@ input{
     border-top-left-radius: 10px;
     color: black;
     font-size: 1rem;
-
 }
 input:focus{
    outline: none;
-
 }
 .input p{
     font-size: 1rem;
@@ -156,7 +136,6 @@ input:focus{
     justify-content: center;
     padding: .5rem;
 }
-
 .card h3{
     font-size: 1.5rem;
     font-weight: 700;
